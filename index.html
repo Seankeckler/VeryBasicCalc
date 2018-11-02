@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Calcu-later
+    </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="java1.js"></script>
+</head>
+
+<body>
+  <div>
+    <p>Enter two numbers, select which math it is to be doing, then click da button.
+      <br> The answer will be shown down there somewhere.</p>
+    <form>
+      1st number:
+      <input type="text" name="number1"> 2nd number:
+      <input type="text" name="number2">
+      <br>
+      <input type="radio" name="op" value="add">Add
+      <br>
+      <input type="radio" name="op" value="sub">Subtract
+      <br>
+      <input type="radio" name="op" value="mul">Multiply
+      <br>
+      <input type="radio" name="op" value="div">Division
+      <br>
+      <input type="button" name="calc" onclick="calculate()" value="Calculate">
+      <br>
+    </form>
+    <p id="math_res"></p>
+  </div>
+</body>
+
+</html>
